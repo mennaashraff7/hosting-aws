@@ -9,9 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "frontend:install": "cd reactnd-contacts-complete && npm install",
-    "frontend:build": "cd reactnd-contacts-complete && npm run build"
+    "e2e": "ng e2e"
+
   },
   "private": true,
   "dependencies": {
