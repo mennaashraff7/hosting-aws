@@ -1,4 +1,3 @@
-
 {
     "scripts": {
         "frontend:install": "cd udagram-frontend && npm install --legacy-peer-deps",
@@ -9,8 +8,14 @@
         "backend:aws-eb": "cd udagram-api && npm run aws-eb",
         "backend:deploy": "cd udagram-api && npm run deploy",
         "frontend:test": "cd udagram-frontend && npm run test",
-        "frontend:e2e": "cd udagram-frontend && npm run e2e"
+        "frontend:e2e": "cd udagram-frontend && npm run e2e",
+        "frontend:karmaCli": "cd udagram-frontend && npm run karmaCli"
     },
-
-    "devDependencies": {}
+    "devDependencies": {
+        "karma": "^6.3.19",
+        "karma-chrome-launcher": "^3.1.1",
+        "karma-coverage-istanbul-reporter": "^3.0.3",
+        "karma-jasmine": "^5.0.0",
+        "karma-jasmine-html-reporter": "^1.7.0"
+    }
 }
