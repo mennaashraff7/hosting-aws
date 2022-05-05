@@ -7,9 +7,9 @@
         "frontend:deploy": "cd udagram-frontend && npm run deploy",
         "backend:aws-eb": "cd udagram-api && npm run aws-eb",
         "backend:deploy": "cd udagram-api && npm run deploy",
-        "frontend:test": "cd udagram-frontend && set NODE_OPTIONS=--openssl-legacy-provider && npm run test",
+        "frontend:test": "cd udagram-frontend && export SET NODE_OPTIONS=--openssl-legacy-provider && npm run test",
         "frontend:e2e": "cd udagram-frontend && npm run e2e",
-        "frontend:karmaCli": "cd udagram-frontend && set NODE_OPTIONS=--openssl-legacy-provider && npm run karmaCli"
+        "frontend:karmaCli": "cd udagram-frontend && export SET NODE_OPTIONS=--openssl-legacy-provider && npm run karmaCli"
     },
     "devDependencies": {
         "karma": "^6.3.19",
